@@ -1,0 +1,80 @@
+Big O Notation
+
+Es una forma de ver como aumenta la complejidad de un algoritmo a medida que se
+incrementa la cantidad de ingresos(N)
+
+Tipos:
+
+-O(1):
+	Se ejecuta en la misma cantidad de tiempo sin importar la cantidad de informacion.
+	Ej:
+	array[i] = 4;
+
+-O(N)
+	El tiempo en completar es proporcional a la cantidad de N elementos que haya
+	Un ejemplo seria una busqueda lineal, ya que el tiempo de ejecucion aumenta
+	proporcionalmente con la cantidad de elementos que compara, pero solo mira cada
+	elemento una sola vez
+
+-O(N^2) o N^3 etc
+	El tiempo en ejecutar es el ^2 de la cantidad de elementos. Esto ocurre cuando se tiene
+	tiene que recorrer varias veces la cantidad de elementos.
+	Ej: algoritmo de ordenamiento burbuja, se recorre todo el vector por cada elemento hay
+	en el mismo.
+
+	Estos casos son malos, y deberian evitarse si es posible
+
+-O(logN)
+	Son de los mas eficientes ya que por cada iteracion se divide la cantidad info cada vez
+	que se ejecuta. La cantidad de informacion que se ingresa tiene poco efecto sobre el tiempo
+	de ejecucion
+	Un ejemplo seria la busqueda binaria. En esta busqueda se divide en dos a la cantidad de
+	elementos que buscar por cada iteracion.
+
+-O(NlogN)
+	Cada comparacion va a reducir la lista posible final a la mitad.
+	Un ejemplo seria el QuickSort
+
+
+Regla de la suma:
+		Si los algoritmos estan en bloques de codigo distintos, se suman sus Big O
+
+Regla del producto:
+		Si hay un algoritmo dentro de otro, se multiplica la complejidad de ambos.
+
+
+T(N) = C*f(N)
+
+Mas info: http://web.mit.edu/16.070/www/lecture/big_o.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
