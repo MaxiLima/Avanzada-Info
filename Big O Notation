@@ -45,6 +45,12 @@ Regla del producto:
 
 T(N) = C*f(N)
 
+T(N) = Es el tiempo de ejecucion para una cierta cantidad de elementos
+
+C = Es un coeficiente
+
+f(N) = Es la funcion (N2 NlogN etc) con N valores dados.
+
 Mas info: http://web.mit.edu/16.070/www/lecture/big_o.pdf
 
 
