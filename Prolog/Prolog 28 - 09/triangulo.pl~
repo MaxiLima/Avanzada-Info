@@ -1,0 +1,4 @@
+mayor(A,B) :- A>B.
+menor(A,B):- A<B.
+
+triangulo(X,Y,Z):- menor(X, Y+Z), menor(Y, X+Z), menor(Z,X+Y).
